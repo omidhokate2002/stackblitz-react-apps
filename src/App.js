@@ -2,6 +2,7 @@ import React, { Component, useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link, Routes, Route } from 'react-router-dom';
 import './style.css';
+import axios from 'axios';
 
 class User extends React.Component {
   constructor(props) {
@@ -177,7 +178,7 @@ function Counter() {
 
 export default function App() {
   return (
-    <div className="container-Fluid">
+    <div className="p-3 mb-2 bg-dark-subtle text-emphasis-dark">
       <h2>App Component</h2>
       <div>
         <Link to="/user">User</Link> /<Link to="/table">Table</Link> /
