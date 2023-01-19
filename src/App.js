@@ -2,7 +2,6 @@ import React, { Component, useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link, Routes, Route } from 'react-router-dom';
 import './style.css';
-import Form1 from 'Counter.js';
 
 class User extends React.Component {
   constructor(props) {
