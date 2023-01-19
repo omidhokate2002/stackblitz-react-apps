@@ -54,7 +54,7 @@ class User extends React.Component {
 function Table() {
   return (
     <div>
-      <table className="table table-dark table-hover">
+      <table className="table table-success table-hover">
         <thead>
           <tr>
             <th>Name</th>
@@ -65,6 +65,10 @@ function Table() {
           <tr>
             <td>Om Dhokate</td>
             <td>omdhokae2002@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Ram Dhokate</td>
+            <td>abc@gmail.com</td>
           </tr>
         </tbody>
       </table>
